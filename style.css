@@ -3,6 +3,7 @@
 
 body{
 	background-color: black;
+	background-image: url("snowflake.png");
 }
 #explain {
 	display: block;
