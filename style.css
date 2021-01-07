@@ -3,7 +3,7 @@
 
 body{
 	background-color: black;
-	background-image: url("snowflake.png");
+	background-image: url("snowflake2.png");
 }
 #explain {
 	display: block;
@@ -54,7 +54,8 @@ body{
 	border-radius: 100%;
   }
 
-@media(min-width: 320px) and (max-width: 480px){
+@media  only screen and (min-device-width: 375px) and (max-device-width: 			812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)
+{
 	.div1{
 	display: block;
 	margin-left: auto;
